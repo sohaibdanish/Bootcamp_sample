@@ -31,5 +31,5 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying surge 
-      run: surge ./ cowardly-servant.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge ./cowardly-servant.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
         
