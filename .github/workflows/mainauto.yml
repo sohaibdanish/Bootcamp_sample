@@ -31,5 +31,5 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying surge 
-      run: surge ./ spotty-farm.surge.sh --token ${{ secrets.SURGE_KING }}
+      run: surge ./ spotty-farm.surge.sh --token $ {{ secrets.SURGE_KING }}
         
